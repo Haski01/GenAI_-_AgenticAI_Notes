@@ -37,3 +37,19 @@ using all fields together.
 
     - Runs after all fields are available
     - Ideal for: password match, dependent fields, global rules
+
+### Field (pydantic module)
+- Pydantic’s Field() is used to add validation rules, metadata, default values, constraints, and documentation to individual fields inside a Pydantic model.
+
+- It helps define:
+    - Default values
+    - Minimum/maximum limits
+    - Regex patterns
+    - Descriptions
+    - Examples
+    - Titles
+    - Aliases
+    - And much more
+
+### computed_field 
+- computed_field is a Pydantic decorator used to create read-only fields whose values are automatically calculated from other fields in the model.
