@@ -34,5 +34,6 @@
 using all fields together.
 
     - Validates whole model
+
     - Runs after all fields are available
     - Ideal for: password match, dependent fields, global rules
