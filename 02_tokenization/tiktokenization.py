@@ -1,7 +1,7 @@
 import tiktoken
 
 # Load GPT-4o tokenizer
-encoding = tiktoken.encoding_for_model("gpt-4o")
+encoding = tiktoken.encoding_for_model("gpt-4o-mini")
 
 text = """
 Hey buddy! This is Asad, Nice to meet you!
